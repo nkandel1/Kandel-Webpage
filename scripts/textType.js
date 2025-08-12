@@ -45,9 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
   typeWriter({
     elementId: 'typewriter',
     texts: [
-      "Noah Kandel",
-      "Senior Information Science Student",
-      "Cybersecurity & Data-Driven Solutions"
+      "Maryland Data Science Grad",
+      "Data-driven Problem Solver",
+      "UX- Focused Designer & Developer"
+      "Cyberecurity Professional"
     ]
   });
 });
