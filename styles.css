@@ -527,3 +527,24 @@ canvas {
 .project-button:hover {
     background: #444d56;
 }
+@media (max-width: 768px) {
+  .project-content {
+    flex-wrap: wrap;   /* allow wrapping on mobile */
+    gap: 20px;         /* smaller gap */
+  }
+
+  .project-text,
+  .project-image {
+    width: 100% !important;  /* stack and full width */
+    max-width: 100% !important;
+  }
+
+  .project-image {
+    object-fit: contain; /* keep image contained */
+    height: auto;
+  }
+
+  .project-card {
+    padding: 15px 10px;
+    margin: 30px 0;
+  }
