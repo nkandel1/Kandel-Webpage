@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     texts: [
       "Maryland Data Science Grad",
       "Data-driven Problem Solver",
-      "UX- Focused Designer & Developer"
+      "UX- Focused Designer & Developer",
       "Cyberecurity Professional"
     ]
   });
