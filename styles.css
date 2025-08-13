@@ -553,3 +553,19 @@ canvas {
     padding: 15px 10px;
     margin: 30px 0;
   }
+
+/* Typewriter Cursor - CSS Caret Version */
+#cursor {
+  display: inline-block;
+  width: 2px;          /* caret thickness */
+  height: 1em;         /* match text height */
+  background: black;   /* change to white if text is white */
+  margin-left: 4px;
+  vertical-align: -0.1em; /* tweak if caret sits too high/low */
+  animation: blink 0.8s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
