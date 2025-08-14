@@ -99,6 +99,7 @@ canvas {
     color: white;
     padding: 30px 40px;
     min-height: 220px;
+    min-width: 350px;
     max-width: 600px;
     margin: 100px auto 50px;
     text-align: center;
