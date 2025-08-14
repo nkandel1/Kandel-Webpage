@@ -104,6 +104,12 @@ canvas {
     margin: 100px auto 50px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    .placeholder {
+    visibility: hidden;     /* keeps it invisible */
+    white-space: nowrap;    /* prevents wrapping so width matches longest text */
+    position: absolute;     /* keeps it from affecting actual layout position */
+}
+
 }
 
 @media (max-width: 600px) {
